@@ -20,6 +20,22 @@ function App() {
             <CardWithButton />
           </div>
         </div>
+        <div className="row">
+          <div className="col-sm-12 mb-3 mb-sm-0">
+            <CardWithButton />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-4">
+            <CardWithButton />
+          </div>
+          <div className="col-sm-4">
+            <CardWithButton />
+          </div>
+          <div className="col-sm-4">
+            <CardWithButton />
+          </div>
+        </div>
       </div>
     </div>
   );
