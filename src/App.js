@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <div className="container container___section1">
         <h1 className="landing-page__title">
-          Welcome to my Bootstrap Template Website
+          Welcome to my Bootstrap Template Website It's Amazing!
         </h1>
       </div>
       <div className="container container__section2">
