@@ -70,7 +70,7 @@ Add bootstrap script to last line of <body>
 Kill Terminal
 `ctrl c`
 
-## TO ADD TO GITHUB
+## ADD TO GITHUB
 
 From application root:
 `git init `
@@ -81,22 +81,29 @@ Create new repo, public, no readme
 
 In application copy and paste “…or push an existing repository from the command line” section
 All three lines, hit enter
-`git add .`
-`git commit -m “initial commit”`
-`git push origin main`
+
+```
+git add .
+git commit -m “initial commit”
+git push origin main
+```
+
 Now all your react files should be in GitHub
 
-To Deploy
+## To Deploy
+
 Go to vercel, login
 Add new project
-Deploy
+Click Deploy
 https://react-bootstrap-template.vercel.app/
 
 To make changes:
 Make the code change
-`git add .`
-`git commit -m “Updated text”`
-`git push origin main`
+
+```git add .
+git commit -m “commit message”
+git push origin main
+```
 
 ### `npm test`
 
