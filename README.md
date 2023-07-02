@@ -14,9 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-NOTES FROM OUR SESSION
+<hr/>
 
-React bootstrap app
+## NOTES FROM OUR SESSION
+
+### Helpful Links
+
 https://getbootstrap.com/docs/5.3/layout/grid/
 Navbar with routing https://www.youtube.com/watch?v=SLfhMt5OUPI
 Bootstrap docs getting started https://getbootstrap.com/docs/5.3/getting-started/introduction/
@@ -26,14 +29,19 @@ Bootstrap https://www.youtube.com/watch?v=qNifU_aQRio
 
 Debugging: rerun server when changing classnames and css
 
-BEM for classNames
+### BEM for classNames
+
 landing-page\_\_heading—h1
 https://getbem.com/naming/
 
-Create application and install dependencies
-`npx create-react-app my-app`
-`cd my-app`
-`npm install bootstrap`
+## Create application and install dependencies
+
+```
+npx create-react-app my-app
+cd my-app
+npm install bootstrap
+```
+
 Add bootstrap link to public/indext.html under <title/>
 Add bootstrap script to last line of <body>
 `npm start`
@@ -54,6 +62,18 @@ All three lines, hit enter
 `git commit -m “initial commit”`
 `git push origin main`
 Now all your react files should be in GitHub
+
+To Deploy
+Go to vercel, login
+Add new project
+Deploy
+https://react-bootstrap-template.vercel.app/
+
+To make changes:
+Make the code change
+`git add .`
+`git commit -m “Updated text”`
+`git push origin main`
 
 ### `npm test`
 
