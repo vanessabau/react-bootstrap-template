@@ -14,6 +14,47 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+NOTES FROM OUR SESSION
+
+React bootstrap app
+https://getbootstrap.com/docs/5.3/layout/grid/
+Navbar with routing https://www.youtube.com/watch?v=SLfhMt5OUPI
+Bootstrap docs getting started https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+Bootstrap Navbar https://www.youtube.com/watch?v=OqIQaxE8nz4
+Bootstrap https://www.youtube.com/watch?v=qNifU_aQRio
+
+Debugging: rerun server when changing classnames and css
+
+BEM for classNames
+landing-page\_\_heading—h1
+https://getbem.com/naming/
+
+Create application and install dependencies
+`npx create-react-app my-app`
+`cd my-app`
+`npm install bootstrap`
+Add bootstrap link to public/indext.html under <title/>
+Add bootstrap script to last line of <body>
+`npm start`
+
+`ctrl c` (to kill terminal)
+
+TO ADD TO GITHUB
+From application root:
+`git init `
+
+Go to GitHub, create new repository
+Name the same as your application
+Create new repo, public, no readme
+
+In application copy and paste “…or push an existing repository from the command line” section
+All three lines, hit enter
+`git add .`
+`git commit -m “initial commit”`
+`git push origin main`
+Now all your react files should be in GitHub
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
