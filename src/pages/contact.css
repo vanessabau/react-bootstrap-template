@@ -1,0 +1,8 @@
+.contact-btn__submit {
+  background-color: purple;
+  color: white;
+}
+
+.contact-btn__submit:hover {
+  background-color: lavender;
+}
