@@ -42,7 +42,7 @@ cd my-app
 npm install bootstrap
 ```
 
-### Add bootstrap to public/indext.html
+### Add bootstrap to public/index.html
 
 Add link under <title/>
 Add bootstrap script to last line of <body>
